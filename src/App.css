@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+#root {
+  height: 100vh;
+}
+
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -21,6 +26,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.itemsList {
+  background-color: #FFF;
+  padding: 3px;
+  width: 600px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  position: relative;
 }
 
 @keyframes App-logo-spin {
